@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgb(247, 244, 240);
+}
+
+nav{
+    font-size: 300%;
+    font-weight: bold;
+}
+img{
+    display: inline-block;
+  width: 28%;
+  height: 40%;
+  padding: 20px;
+ 
+}
+@media only screen and (max-width: 860px) {
+    body {
+        background-color: rgb(247, 244, 240);
+        margin: 5px;
+        padding: 5px;
+    
+    }
+    img{
+        display: inline-block;
+      width: 29%;
+      height: auto;
+      padding: 3px;
+      margin-right: 1%;
+      margin-left: 1%;
+    }
+    nav{
+        font-size: 100%;
+
+    }
+}
